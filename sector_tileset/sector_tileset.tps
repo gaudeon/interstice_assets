@@ -4,9 +4,9 @@
         <key>fileFormatVersion</key>
         <int>4</int>
         <key>texturePackerVersion</key>
-        <string>4.3.3</string>
+        <string>4.4.0</string>
         <key>fileName</key>
-        <string>E:/cygwin64/home/travi/interstice_assets/img_atlas.tps</string>
+        <string>/Users/tchase/js/interstice_assets/sector_tileset/sector_tileset.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -36,7 +36,7 @@
         <key>dataFormat</key>
         <string>phaser-json-array</string>
         <key>textureFileName</key>
-        <filename>img_atlas.png</filename>
+        <filename></filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -58,7 +58,7 @@
         <key>jxrCompressionLevel</key>
         <uint>0</uint>
         <key>ditherType</key>
-        <enum type="SettingsBase::DitherType">NearestNeighbour</enum>
+        <enum type="SettingsBase::DitherType">PngQuantLow</enum>
         <key>backgroundColor</key>
         <uint>0</uint>
         <key>libGdx</key>
@@ -72,7 +72,7 @@
             </struct>
         </struct>
         <key>shapePadding</key>
-        <uint>32</uint>
+        <uint>0</uint>
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
@@ -90,16 +90,16 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>2048</int>
+            <int>4096</int>
             <key>height</key>
-            <int>2048</int>
+            <int>4096</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>2048</int>
+            <int>256</int>
             <key>height</key>
-            <int>2048</int>
+            <int>256</int>
         </QSize>
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
@@ -110,7 +110,7 @@
             <key>sizeConstraints</key>
             <enum type="AlgorithmSettings::SizeConstraints">AnySize</enum>
             <key>forceSquared</key>
-            <true/>
+            <false/>
             <key>maxRects</key>
             <struct type="AlgorithmMaxRectsSettings">
                 <key>heuristic</key>
@@ -150,7 +150,7 @@
             <key>data</key>
             <struct type="DataFile">
                 <key>name</key>
-                <filename>img_atlas.json</filename>
+                <filename>sector_tileset.json</filename>
             </struct>
         </map>
         <key>multiPack</key>
@@ -160,7 +160,7 @@
         <key>outputFormat</key>
         <enum type="SettingsBase::OutputFormat">RGBA8888</enum>
         <key>alphaHandling</key>
-        <enum type="SettingsBase::AlphaHandling">ClearTransparentPixels</enum>
+        <enum type="SettingsBase::AlphaHandling">KeepTransparentPixels</enum>
         <key>contentProtection</key>
         <struct type="ContentProtection">
             <key>key</key>
@@ -172,6 +172,8 @@
         <false/>
         <key>prependSmartFolderName</key>
         <false/>
+        <key>autodetectAnimations</key>
+        <true/>
         <key>globalSpriteSettings</key>
         <struct type="SpriteSettings">
             <key>scale</key>
@@ -197,150 +199,74 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">images/backgrounds/spaceBGDarkPurple.png</key>
+            <key type="filename">images/markers/minion_start.png</key>
+            <key type="filename">images/markers/player_start.png</key>
+            <key type="filename">images/walls/grey_block_bottomleft_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_bottomleft_corner_bottom_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_bottomleft_corner_left_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_bottomright_corner_bottom_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_bottomright_corner_right_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_horizontal_left_cap_bottom_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_horizontal_left_cap_top_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_horizontal_right_cap_bottom_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_horizontal_right_cap_top_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_horizontal_top_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_topleft_corner_left_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_topleft_corner_top_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_topright_corner_right_shadow.png</key>
+            <key type="filename">images/walls/grey_wall_topright_corner_top_shadow.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>64,64,128,128</rect>
+                <rect>8,8,16,16</rect>
                 <key>scale9Paddings</key>
-                <rect>64,64,128,128</rect>
+                <rect>8,8,16,16</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">images/bullet/BulletGreen.png</key>
-            <key type="filename">images/bullet/BulletRed.png</key>
+            <key type="filename">images/walls/grey_wall_horizontal_bottom_shadow.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>2,2,5,5</rect>
+                <rect>8,8,17,16</rect>
                 <key>scale9Paddings</key>
-                <rect>2,2,5,5</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">images/hud_elements/barHorizontal_green_left.png</key>
-            <key type="filename">images/hud_elements/barHorizontal_green_right.png</key>
-            <key type="filename">images/hud_elements/barHorizontal_shadow_left.png</key>
-            <key type="filename">images/hud_elements/barHorizontal_shadow_right.png</key>
-            <key type="filename">images/hud_elements/barHorizontal_yellow_left.png</key>
-            <key type="filename">images/hud_elements/barHorizontal_yellow_right.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>2,7,3,13</rect>
-                <key>scale9Paddings</key>
-                <rect>2,7,3,13</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">images/hud_elements/barHorizontal_green_mid.png</key>
-            <key type="filename">images/hud_elements/barHorizontal_shadow_mid.png</key>
-            <key type="filename">images/hud_elements/barHorizontal_yellow_mid.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>4,7,8,13</rect>
-                <key>scale9Paddings</key>
-                <rect>4,7,8,13</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">images/planets/planet-10_300.png</key>
-            <key type="filename">images/planets/planet-11_300.png</key>
-            <key type="filename">images/planets/planet-12_300.png</key>
-            <key type="filename">images/planets/planet-13_300.png</key>
-            <key type="filename">images/planets/planet-14_300.png</key>
-            <key type="filename">images/planets/planet-15_300.png</key>
-            <key type="filename">images/planets/planet-16_300.png</key>
-            <key type="filename">images/planets/planet-1_300.png</key>
-            <key type="filename">images/planets/planet-2_300.png</key>
-            <key type="filename">images/planets/planet-3_300.png</key>
-            <key type="filename">images/planets/planet-4_300.png</key>
-            <key type="filename">images/planets/planet-5_300.png</key>
-            <key type="filename">images/planets/planet-6_300.png</key>
-            <key type="filename">images/planets/planet-7_300.png</key>
-            <key type="filename">images/planets/planet-8_300.png</key>
-            <key type="filename">images/planets/planet-9_300.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>75,75,150,150</rect>
-                <key>scale9Paddings</key>
-                <rect>75,75,150,150</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">images/ships/enemyShipG.png</key>
-            <key type="filename">images/ships/playerShipO.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>12,12,24,24</rect>
-                <key>scale9Paddings</key>
-                <rect>12,12,24,24</rect>
+                <rect>8,8,17,16</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
         </map>
         <key>fileList</key>
         <array>
-            <filename>images/backgrounds/spaceBGDarkPurple.png</filename>
-            <filename>images/bullet/BulletGreen.png</filename>
-            <filename>images/bullet/BulletRed.png</filename>
-            <filename>images/hud_elements/barHorizontal_green_left.png</filename>
-            <filename>images/hud_elements/barHorizontal_green_mid.png</filename>
-            <filename>images/hud_elements/barHorizontal_green_right.png</filename>
-            <filename>images/hud_elements/barHorizontal_shadow_left.png</filename>
-            <filename>images/hud_elements/barHorizontal_shadow_mid.png</filename>
-            <filename>images/hud_elements/barHorizontal_shadow_right.png</filename>
-            <filename>images/hud_elements/barHorizontal_yellow_left.png</filename>
-            <filename>images/hud_elements/barHorizontal_yellow_mid.png</filename>
-            <filename>images/hud_elements/barHorizontal_yellow_right.png</filename>
-            <filename>images/planets/planet-1_300.png</filename>
-            <filename>images/planets/planet-2_300.png</filename>
-            <filename>images/planets/planet-3_300.png</filename>
-            <filename>images/planets/planet-4_300.png</filename>
-            <filename>images/planets/planet-5_300.png</filename>
-            <filename>images/planets/planet-6_300.png</filename>
-            <filename>images/planets/planet-7_300.png</filename>
-            <filename>images/planets/planet-8_300.png</filename>
-            <filename>images/planets/planet-9_300.png</filename>
-            <filename>images/planets/planet-10_300.png</filename>
-            <filename>images/planets/planet-11_300.png</filename>
-            <filename>images/planets/planet-12_300.png</filename>
-            <filename>images/planets/planet-13_300.png</filename>
-            <filename>images/planets/planet-14_300.png</filename>
-            <filename>images/planets/planet-15_300.png</filename>
-            <filename>images/planets/planet-16_300.png</filename>
-            <filename>images/ships/enemyShipG.png</filename>
-            <filename>images/ships/playerShipO.png</filename>
+            <filename>images/markers/minion_start.png</filename>
+            <filename>images/markers/player_start.png</filename>
+            <filename>images/walls/grey_block_bottomleft_shadow.png</filename>
+            <filename>images/walls/grey_wall_bottomleft_corner_bottom_shadow.png</filename>
+            <filename>images/walls/grey_wall_bottomleft_corner_left_shadow.png</filename>
+            <filename>images/walls/grey_wall_bottomright_corner_bottom_shadow.png</filename>
+            <filename>images/walls/grey_wall_bottomright_corner_right_shadow.png</filename>
+            <filename>images/walls/grey_wall_horizontal_bottom_shadow.png</filename>
+            <filename>images/walls/grey_wall_horizontal_left_cap_bottom_shadow.png</filename>
+            <filename>images/walls/grey_wall_horizontal_left_cap_top_shadow.png</filename>
+            <filename>images/walls/grey_wall_horizontal_right_cap_bottom_shadow.png</filename>
+            <filename>images/walls/grey_wall_horizontal_right_cap_top_shadow.png</filename>
+            <filename>images/walls/grey_wall_horizontal_top_shadow.png</filename>
+            <filename>images/walls/grey_wall_topleft_corner_left_shadow.png</filename>
+            <filename>images/walls/grey_wall_topleft_corner_top_shadow.png</filename>
+            <filename>images/walls/grey_wall_topright_corner_right_shadow.png</filename>
+            <filename>images/walls/grey_wall_topright_corner_top_shadow.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
         <key>replaceList</key>
         <array/>
         <key>ignoredWarnings</key>
-        <array>
-            <string>large-max-texture-size</string>
-        </array>
+        <array/>
         <key>commonDivisorX</key>
         <uint>1</uint>
         <key>commonDivisorY</key>
