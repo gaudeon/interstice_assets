@@ -4,9 +4,9 @@
         <key>fileFormatVersion</key>
         <int>4</int>
         <key>texturePackerVersion</key>
-        <string>4.4.0</string>
+        <string>4.6.2</string>
         <key>fileName</key>
-        <string>/Users/tchase/js/interstice_assets/game_atlas/game_atlas.tps</string>
+        <string>C:/repos/interstice_assets/game_atlas/game_atlas.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -199,6 +199,30 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegFront.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegFrontDetached.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegLeftDetached.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegLeftGuard.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegLeftRest.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegLeftThrust.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegRearLance.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegRearRest.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegRightDetached.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegRightGuard.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegRightRest.png</key>
+            <key type="filename">../../../Users/David/Downloads/Atlas/atlasSegRightThrust.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>24,24,48,48</rect>
+                <key>scale9Paddings</key>
+                <rect>24,24,48,48</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">images/backgrounds/spaceBGDarkPurple.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -290,6 +314,18 @@
             <filename>images/hud_elements/barHorizontal_yellow_right.png</filename>
             <filename>images/ships/enemyShipG.png</filename>
             <filename>images/ships/playerShipO.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegFront.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegFrontDetached.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegLeftDetached.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegLeftGuard.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegLeftRest.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegLeftThrust.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegRearLance.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegRearRest.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegRightDetached.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegRightGuard.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegRightRest.png</filename>
+            <filename>../../../Users/David/Downloads/Atlas/atlasSegRightThrust.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
