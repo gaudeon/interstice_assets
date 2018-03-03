@@ -4,7 +4,7 @@
         <key>fileFormatVersion</key>
         <int>4</int>
         <key>texturePackerVersion</key>
-        <string>4.4.0</string>
+        <string>4.6.2</string>
         <key>fileName</key>
         <string>/Users/tchase/js/interstice_assets/sector_tileset/sector_tileset.tps</string>
         <key>autoSDSettings</key>
@@ -199,6 +199,7 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
+            <key type="filename">images/markers/boss_start.png</key>
             <key type="filename">images/markers/minion_start.png</key>
             <key type="filename">images/markers/player_start.png</key>
             <key type="filename">images/walls/grey_block_bottomleft_shadow.png</key>
@@ -260,6 +261,7 @@
             <filename>images/walls/grey_wall_topleft_corner_top_shadow.png</filename>
             <filename>images/walls/grey_wall_topright_corner_right_shadow.png</filename>
             <filename>images/walls/grey_wall_topright_corner_top_shadow.png</filename>
+            <filename>images/markers/boss_start.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
