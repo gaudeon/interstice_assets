@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.6.2</string>
         <key>fileName</key>
-        <string>C:/Users/Lulu2/Documents/GitHub/interstice_assets/game_atlas/game_atlas.tps</string>
+        <string>/Users/tchase/js/interstice_assets/game_atlas/game_atlas.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -283,10 +283,11 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">images/ships/DamEnemyShipG-1.png</key>
+            <key type="filename">images/ships/DamEnemyShipG-2.png</key>
+            <key type="filename">images/ships/DeadEnemyShipG.png</key>
             <key type="filename">images/ships/enemyShipG.png</key>
             <key type="filename">images/ships/playerShipO.png</key>
-            <key type="filename">../../../../Downloads/enemyShipGdamaged0.png</key>
-            <key type="filename">../../../../Downloads/enemyShipGdead0.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -328,8 +329,9 @@
             <filename>images/bosses/atlas/atlasSegRightGuard.png</filename>
             <filename>images/bosses/atlas/atlasSegRightRest.png</filename>
             <filename>images/bosses/atlas/atlasSegRightThrust.png</filename>
-            <filename>../../../../Downloads/enemyShipGdamaged0.png</filename>
-            <filename>../../../../Downloads/enemyShipGdead0.png</filename>
+            <filename>images/ships/DamEnemyShipG-1.png</filename>
+            <filename>images/ships/DamEnemyShipG-2.png</filename>
+            <filename>images/ships/DeadEnemyShipG.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
